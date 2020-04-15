@@ -1,0 +1,19 @@
+{
+  "name": "aplicacao_funcional",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/enilton/-RS-GOSTACK-AplicacaoFuncional.git",
+  "author": "Enilton Junior <enilton.a.junior@capgemini.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuidv4": "^6.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  }
+}
